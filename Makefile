@@ -1,4 +1,4 @@
-dumdom-devcards.jar: src/dumdom_devcards/*
+dumdom-devcards.jar: src/dumdom/*
 	rm -f dumdom-devcards.jar && clj -A:jar
 
 deploy: dumdom-devcards.jar
