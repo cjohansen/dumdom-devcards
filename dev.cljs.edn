@@ -1,0 +1,10 @@
+^{:watch-dirs ["src" "devcards"]
+  :ring-server-options {:port 9596}}
+{:main dumdom.cards
+ :optimizations :none
+ :pretty-print true
+ :source-map true
+ :asset-path "/js/dev"
+ :devcards true
+ :output-to "resources/public/js/dev.js"
+ :output-dir "resources/public/js/dev"}

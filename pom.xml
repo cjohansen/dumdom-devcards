@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>cjohansen</groupId>
+  <artifactId>dumdom-devcards</artifactId>
+  <version>2021.06.14</version>
+  <name>dumdom-devcards</name>
+  <dependencies>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojure</artifactId>
+      <version>1.10.3</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.clojure</groupId>
+      <artifactId>clojurescript</artifactId>
+      <version>1.10.866</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>cjohansen</groupId>
+      <artifactId>dumdom</artifactId>
+      <version>2021.06.14</version>
+      <scope>provided</scope>
+    </dependency>
+    <dependency>
+      <groupId>devcards</groupId>
+      <artifactId>devcards</artifactId>
+      <version>0.2.7</version>
+    </dependency>
+  </dependencies>
+  <build>
+    <sourceDirectory>src</sourceDirectory>
+  </build>
+  <repositories>
+    <repository>
+      <id>clojars</id>
+      <url>https://repo.clojars.org/</url>
+    </repository>
+  </repositories>
+  <distributionManagement>
+    <repository>
+      <id>clojars</id>
+      <name>Clojars repository</name>
+      <url>https://clojars.org/repo</url>
+    </repository>
+  </distributionManagement>
+  <description>Use Bruce Hauman's devcards with Christian Johansen's dumdom.</description>
+  <url>https://github.com/cjohansen/dumdom-devcards</url>
+  <licenses>
+    <license>
+      <name>EPL</name>
+      <url>https://opensource.org/licenses/EPL-2.0</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git:git://github.com/cjohansen/dumdom-devcards.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/cjohansen/dumdom-devcards.git</developerConnection>
+    <tag>v2021.06.14</tag>
+    <url>https://github.com/cjohansen/dumdom-devcards</url>
+  </scm>
+</project>

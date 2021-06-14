@@ -1,0 +1,10 @@
+{:paths ["src"]
+ :deps {org.clojure/clojure {:mvn/version "1.10.3"}
+        org.clojure/clojurescript {:mvn/version "1.10.866"}
+        devcards/devcards {:mvn/version "0.2.7"}}
+ :aliases {:dev {:extra-paths ["dev" "resources" "devcards"]
+                 :extra-deps {com.bhauman/figwheel-main {:mvn/version "0.2.13"}
+                              cjohansen/dumdom {:mvn/version "2021.06.14"}}}
+           :jar {:extra-deps {pack/pack.alpha {:git/url "https://github.com/juxt/pack.alpha.git"
+                                               :sha "511c32d4238afb860ad0b16c4827322d80c7d615"}}
+                 :main-opts ["-m" "mach.pack.alpha.skinny" "--no-libs" "--project-path" "dumdom-devcards.jar"]}}}
