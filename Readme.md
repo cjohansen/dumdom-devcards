@@ -20,7 +20,7 @@ make sense of them. This is what the `dumdom.devcards` namespace is for:
 With tools.deps:
 
 ```clj
-cjohansen/dumdom-devcards {:mvn/version "2021.06.14"}
+net.clojars.cjohansen/dumdom-devcards {:mvn/version "2021.06.14"}
 ```
 
 Note: `dumdom-devcards` depends on `devcards`, you do not need to provide it
@@ -31,7 +31,7 @@ control of your production dependencies, and there is no need to update
 With Leiningen:
 
 ```clj
-[cjohansen/dumdom-devcards "2021.06.14"]
+[net.clojars.cjohansen/dumdom-devcards "2021.06.14"]
 ```
 
 ## Changelog
